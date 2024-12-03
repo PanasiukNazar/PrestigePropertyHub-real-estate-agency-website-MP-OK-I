@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+        <title>ЭлитДом24</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+
+        <!-- Favicons -->
+        <link href="assets/img/favicon.png" rel="icon" />
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Vendor CSS Files -->
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/fontawesome-free/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+            href="assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Template Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- ======= Header ======= -->
+        <header id="header" class="header d-flex align-items-center">
+            <div
+                class="container-fluid container-xl d-flex align-items-center justify-content-between"
+            >
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <!-- Aşağıdaki satırı, bir resим logosu kullanmak isterseniz yorumdan çıkarın -->
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <h1>ЭлитДом24<span>.</span></h1>
+                </a>
+
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+                <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">Главная</a>
+                        </li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="rent.html">Аренда квартир</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <!-- .navbar -->
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="hero">
+            <div class="info d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <h2 data-aos="fade-down">
+                                Добро пожаловать в <span>Сервис квартир</span>
+                            </h2>
+                            <p data-aos="fade-up">
+                                У нас вы найдете лучшие предложения по аренде и
+                                подбору квартир. Современные дома, уютные
+                                квартиры и отличные локации — все это к вашим
+                                услугам.
+                            </p>
+                            <a
+                                data-aos="fade-up"
+                                data-aos-delay="200"
+                                href="#get-started"
+                                class="btn-get-started"
+                                >Начать поиск</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                id="hero-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="5000"
+            >
+                <div
+                    class="carousel-item active"
+                    style="
+                        background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg);
+                    "
+                ></div>
+                <div
+                    class="carousel-item"
+                    style="
+                        background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg);
+                    "
+                ></div>
+                <div
+                    class="carousel-item"
+                    style="
+                        background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg);
+                    "
+                ></div>
+                <div
+                    class="carousel-item"
+                    style="
+                        background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg);
+                    "
+                ></div>
+                <div
+                    class="carousel-item"
+                    style="
+                        background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg);
+                    "
+                ></div>
+
+                <a
+                    class="carousel-control-prev"
+                    href="#hero-carousel"
+                    role="button"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon bi bi-chevron-left"
+                        aria-hidden="true"
+                    ></span>
+                </a>
+
+                <a
+                    class="carousel-control-next"
+                    href="#hero-carousel"
+                    role="button"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon bi bi-chevron-right"
+                        aria-hidden="true"
+                    ></span>
+                </a>
+            </div>
+        </section>
+        <!-- End Hero Section -->
+
+        <main id="main">
+            <!-- ======= Get Started Section ======= -->
+            <section id="get-started" class="get-started section-bg">
+                <div class="container">
+                    <div class="row justify-content-between gy-4">
+                        <div
+                            class="col-lg-6 d-flex align-items-center"
+                            data-aos="fade-up"
+                        >
+                            <div class="content">
+                                <h3>Получите бесплатное предложение</h3>
+                                <p>
+                                    Найти идеальную квартиру стало проще! Мы
+                                    поможем вам подобрать жилье, которое
+                                    соответствует вашим потребностям и бюджету.
+                                    Получите бесплатное предложение и узнайте
+                                    больше о возможностях аренды или покупки.
+                                </p>
+
+                                <p>
+                                    Просто заполните форму, указав свои
+                                    предпочтения. Наша команда опытных
+                                    специалистов предложит вам лучшие варианты,
+                                    учитывая актуальные рыночные условия.
+                                    Сделайте первый шаг к комфорту и уюту с
+                                    нашим сервисом подбора квартир!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5" data-aos="fade">
+                            <form
+                                action="forms/quote.php"
+                                method="post"
+                                class="php-email-form"
+                            >
+                                <h3>Запросить предложение</h3>
+
+                                <div class="row gy-3">
+                                    <div class="col-md-12">
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            class="form-control"
+                                            placeholder="Имя"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            id="email"
+                                            placeholder="Электронная почта"
+                                            required
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            name="phone"
+                                            placeholder="Телефон"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <textarea
+                                            class="form-control"
+                                            name="message"
+                                            rows="6"
+                                            placeholder="Сообщение"
+                                            required
+                                        ></textarea>
+                                    </div>
+
+                                    <div class="col-md-12 text-center">
+                                        <button
+                                            type="submit"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Получить предложение
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- End Quote Form -->
+                    </div>
+                </div>
+            </section>
+            <!-- End Get Started Section -->
+
+            <!-- ======= Constructions Section ======= -->
+            <section id="constructions" class="constructions">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-header">
+                        <h2>Особенности наших квартир</h2>
+                        <p>
+                            Наша цель — предложить клиентам комфортные квартиры,
+                            которые сочетают современный дизайн, удобное
+                            расположение и высокий уровень комфорта. Каждое
+                            предложение уникально и учитывает потребности самых
+                            требовательных клиентов.
+                        </p>
+                    </div>
+
+                    <div class="row gy-4">
+                        <div
+                            class="col-lg-6"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <div class="card-item">
+                                <div class="row">
+                                    <div class="col-xl-5">
+                                        <div
+                                            class="card-bg"
+                                            style="
+                                                background-image: url(assets/img/constructions-1.jpg);
+                                            "
+                                        ></div>
+                                    </div>
+                                    <div
+                                        class="col-xl-7 d-flex align-items-center"
+                                    >
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Удобные локации
+                                            </h4>
+                                            <p>
+                                                Наши квартиры расположены в
+                                                лучших районах города. Мы
+                                                предлагаем варианты с удобным
+                                                доступом к транспорту, магазинам
+                                                и развлекательным центрам, чтобы
+                                                сделать вашу жизнь комфортнее.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card Item -->
+
+                        <div
+                            class="col-lg-6"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
+                            <div class="card-item">
+                                <div class="row">
+                                    <div class="col-xl-5">
+                                        <div
+                                            class="card-bg"
+                                            style="
+                                                background-image: url(assets/img/constructions-2.jpg);
+                                            "
+                                        ></div>
+                                    </div>
+                                    <div
+                                        class="col-xl-7 d-flex align-items-center"
+                                    >
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Индивидуальный подход
+                                            </h4>
+                                            <p>
+                                                Каждому клиенту мы подбираем
+                                                квартиру индивидуально. Сервис
+                                                подбора квартир учитывает все
+                                                ваши предпочтения, чтобы найти
+                                                идеальное жилье.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card Item -->
+
+                        <div
+                            class="col-lg-6"
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                        >
+                            <div class="card-item">
+                                <div class="row">
+                                    <div class="col-xl-5">
+                                        <div
+                                            class="card-bg"
+                                            style="
+                                                background-image: url(assets/img/constructions-3.jpg);
+                                            "
+                                        ></div>
+                                    </div>
+                                    <div
+                                        class="col-xl-7 d-flex align-items-center"
+                                    >
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Современный дизайн
+                                            </h4>
+                                            <p>
+                                                Наши квартиры отличаются
+                                                стильным и функциональным
+                                                дизайном. Просторные помещения,
+                                                качественные материалы и
+                                                внимание к деталям создают
+                                                комфортную атмосферу для жизни.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card Item -->
+
+                        <div
+                            class="col-lg-6"
+                            data-aos="fade-up"
+                            data-aos-delay="400"
+                        >
+                            <div class="card-item">
+                                <div class="row">
+                                    <div class="col-xl-5">
+                                        <div
+                                            class="card-bg"
+                                            style="
+                                                background-image: url(assets/img/constructions-4.jpg);
+                                            "
+                                        ></div>
+                                    </div>
+                                    <div
+                                        class="col-xl-7 d-flex align-items-center"
+                                    >
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                Удобные условия аренды
+                                            </h4>
+                                            <p>
+                                                Мы предлагаем гибкие условия
+                                                аренды, чтобы сделать процесс
+                                                максимально простым и удобным
+                                                для вас. Все расчеты проводятся
+                                                в тенге, что удобно для жителей
+                                                Казахстана.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card Item -->
+                    </div>
+                </div>
+            </section>
+            <!-- End Constructions Section -->
+
+            <!-- ======= Services Section ======= -->
+            <section id="services" class="services section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-header">
+                        <h2>Почему выбирают нас?</h2>
+                        <p>
+                            Мы являемся лидерами в сфере недвижимости благодаря
+                            нашему качественному сервису, клиенториентированному
+                            подходу и профессиональной команде. Мы здесь, чтобы
+                            помочь вам найти жилье вашей мечты и предоставить
+                            лучший опыт. Вот четыре причины, почему стоит
+                            выбрать нас:
+                        </p>
+                    </div>
+
+                    <div class="row gy-4">
+                        <div
+                            class="col-lg-6 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <div class="service-item position-relative">
+                                <h3>Профессиональная консультация</h3>
+                                <p>
+                                    Наша команда экспертов с многолетним опытом
+                                    на рынке недвижимости помогает покупателям и
+                                    арендаторам найти оптимальные решения. Мы
+                                    предоставляем поддержку на всех этапах,
+                                    включая поиск квартир и сервис подбора
+                                    квартир.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div
+                            class="col-lg-6 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <div class="service-item position-relative">
+                                <h3>Удовлетворение клиентов</h3>
+                                <p>
+                                    Мы стремимся превзойти ожидания каждого
+                                    клиента, предлагая персонализированные
+                                    услуги. Мы всегда рядом, чтобы сопровождать
+                                    вас на каждом шаге процесса, что делает нас
+                                    надежным партнером.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div
+                            class="col-lg-6 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <div class="service-item position-relative">
+                                <h3>Широкий выбор недвижимости</h3>
+                                <p>
+                                    Наш обширный портфель недвижимости включает
+                                    варианты на любой вкус и бюджет. Мы
+                                    предлагаем современные квартиры и дома,
+                                    которые помогут вам найти идеальное место
+                                    для жизни или отдыха.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div
+                            class="col-lg-6 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <div class="service-item position-relative">
+                                <h3>Конфиденциальность и доверие</h3>
+                                <p>
+                                    Мы обеспечиваем безопасность всех данных
+                                    наших клиентов. Все ваши транзакции проходят
+                                    в строгом соответствии с принципами
+                                    конфиденциальности. Мы предлагаем
+                                    прозрачность и честность на каждом этапе
+                                    взаимодействия.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+                    </div>
+                </div>
+            </section>
+            <!-- End Services Section -->
+
+            <!-- ======= Alt Services Section ======= -->
+            <section id="alt-services" class="alt-services">
+                <div class="container" data-aos="fade-up">
+                    <div class="row justify-content-around gy-4">
+                        <div
+                            class="col-lg-6 img-bg"
+                            style="
+                                background-image: url(assets/img/alt-services.jpg);
+                            "
+                            data-aos="zoom-in"
+                            data-aos-delay="100"
+                        ></div>
+
+                        <div
+                            class="col-lg-5 d-flex flex-column justify-content-center"
+                        >
+                            <h3>
+                                Наш подход: забота и профессионализм в сфере
+                                недвижимости
+                            </h3>
+                            <p>
+                                Работа с недвижимостью — это не просто покупка
+                                или аренда, но и помощь в реализации мечты о
+                                комфортном жилье. Наш подход заключается в
+                                понимании ваших потребностей и предоставлении
+                                лучшего опыта. Мы тщательно изучаем ваши
+                                запросы, чтобы предложить подходящие варианты
+                                недвижимости. Каждое жилье оценивается по
+                                ключевым критериям, чтобы предоставить вам
+                                современные и комфортные условия. Мы предлагаем
+                                сервис подбора квартир, чтобы вы могли быстро
+                                найти жилье вашей мечты. Наша команда готова
+                                сопровождать вас на всех этапах, предоставляя
+                                профессиональные и честные рекомендации.
+                            </p>
+                            <p>
+                                Мы стремимся предоставить не только жилье, но и
+                                высокий уровень сервиса. Наши услуги включают
+                                поддержку на всех этапах поиска и аренды
+                                квартир. Работая с нами, вы гарантированно
+                                получите лучший результат!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Alt Services Section -->
+
+            <!-- ======= Testimonials Section ======= -->
+            <section id="testimonials" class="testimonials section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-header">
+                        <h2>Отзывы клиентов: Доверие и Удовлетворение</h2>
+                        <p>
+                            Удовлетворение наших клиентов — наш главный
+                            приоритет. Опыт в сфере недвижимости и
+                            клиенториентированный подход помогают нам предлагать
+                            лучший сервис. Мы рады поделиться отзывами, которые
+                            оставили наши клиенты. Узнайте, почему они выбирают
+                            нас и насколько довольны нашим сервисом.
+                        </p>
+                    </div>
+
+                    <div class="slides-2 swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-1.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Ерлан Байгужин</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            "Процесс поиска квартиры превзошёл
+                                            мои ожидания. Команда оказалась
+                                            очень профессиональной и
+                                            внимательной к моим запросам. Они
+                                            помогли найти идеальный вариант,
+                                            соответствующий моим пожеланиям.
+                                            Огромное спасибо за отличную
+                                            работу!"
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-2.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Асель Амангельдиева</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            "Сервис подбора квартир помог мне
+                                            найти ту самую квартиру, о которой я
+                                            мечтала. Поддержка на всех этапах и
+                                            внимание к деталям сделали процесс
+                                            аренды быстрым и лёгким. Рекомендую
+                                            всем!"
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-3.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Марат Даулетов</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            "Когда я искал квартиру для аренды,
+                                            эта команда помогла мне быстро и
+                                            профессионально. Процесс был
+                                            понятным, а обслуживание на высшем
+                                            уровне. Спасибо за вашу помощь!"
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="assets/img/testimonials/testimonials-4.jpg"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Алия Касымова</h3>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p>
+                                            <i
+                                                class="bi bi-quote quote-icon-left"
+                                            ></i>
+                                            "Продажа квартиры прошла без
+                                            каких-либо трудностей. Команда учла
+                                            все мои пожелания и помогла на
+                                            каждом этапе сделки. Спасибо за
+                                            внимание и профессионализм!"
+                                            <i
+                                                class="bi bi-quote quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Testimonials Section -->
+
+            <!-- ======= Recent Blog Posts Section ======= -->
+            <section id="recent-blog-posts" class="recent-blog-posts">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-header">
+                        <h2>Новости в Мире Недвижимости</h2>
+                        <p>
+                            Наш блог рассказывает о последних событиях в сфере
+                            недвижимости. Узнайте больше о современных
+                            тенденциях, новых объектах и полезных советах. Мы
+                            делимся актуальной информацией, чтобы помочь вам
+                            сделать правильный выбор.
+                        </p>
+                    </div>
+
+                    <div class="row gy-5">
+                        <div
+                            class="col-xl-4 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <div class="post-item position-relative h-100">
+                                <div
+                                    class="post-img position-relative overflow-hidden"
+                                >
+                                    <img
+                                        src="assets/img/blog/blog-1.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                    <span class="post-date">12 декабря</span>
+                                </div>
+                                <div class="post-content d-flex flex-column">
+                                    <h3 class="post-title">
+                                        На что обратить внимание при поиске
+                                        квартиры
+                                    </h3>
+                                    <p>
+                                        Делимся советами, которые помогут вам
+                                        выбрать идеальную квартиру. Узнайте о
+                                        ключевых аспектах — от местоположения до
+                                        юридической проверки.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End post item -->
+
+                        <div
+                            class="col-xl-4 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
+                            <div class="post-item position-relative h-100">
+                                <div
+                                    class="post-img position-relative overflow-hidden"
+                                >
+                                    <img
+                                        src="assets/img/blog/blog-2.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                    <span class="post-date">17 июля</span>
+                                </div>
+                                <div class="post-content d-flex flex-column">
+                                    <h3 class="post-title">
+                                        Аренда квартир: Советы для удачной
+                                        сделки
+                                    </h3>
+                                    <p>
+                                        Хотите снять квартиру? Узнайте, как
+                                        найти лучший вариант, избежать лишних
+                                        затрат и сделать процесс комфортным.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End post item -->
+
+                        <div
+                            class="col-xl-4 col-md-6"
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                        >
+                            <div class="post-item position-relative h-100">
+                                <div
+                                    class="post-img position-relative overflow-hidden"
+                                >
+                                    <img
+                                        src="assets/img/blog/blog-3.jpg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                    <span class="post-date">5 сентября</span>
+                                </div>
+                                <div class="post-content d-flex flex-column">
+                                    <h3 class="post-title">
+                                        Как избежать ошибок при выборе квартиры
+                                    </h3>
+                                    <p>
+                                        В этой статье мы расскажем о типичных
+                                        ошибках, которые могут возникнуть при
+                                        подборе квартиры, и как их избежать.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End post item -->
+                    </div>
+                </div>
+            </section>
+            <!-- End Recent Blog Posts Section -->
+        </main>
+        <!-- End #main -->
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer" class="footer">
+            <div class="footer-content position-relative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer-info">
+                                <h3>ЭлитДом24</h3>
+                                <p>
+                                    В мире элитной недвижимости мы помогаем вам
+                                    найти квартиру мечты и сделать безопасный
+                                    выбор. Благодаря нашему опыту и
+                                    ориентированному на клиента подходу, мы
+                                    предлагаем лучшие дома и самый качественный
+                                    сервис. Мы — ваш надежный партнер,
+                                    сопровождающий вас на каждом этапе.
+                                    Свяжитесь с нами и сделайте первый шаг к
+                                    своему идеальному жилью. Добро пожаловать в
+                                    мир элитной жизни!
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Footer bilgi sütunu sonu-->
+
+                        <div class="col-lg-4 col-md-3 footer-links">
+                            <h4>Полезные ссылки</h4>
+                            <ul>
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="about.html">О нас</a></li>
+                                <li><a href="contact.html">Контакты</a></li>
+                                <li>
+                                    <a href="terms-of-use.html"
+                                        >Условия использования</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html"
+                                        >Политика конфиденциальности</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Footer bağlantılar sütunu sonu-->
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer-info">
+                                <h4>Адрес</h4>
+
+                                <p>
+                                    Ул. Кунаева, д. 34<br />
+                                    Жилой комплекс Almaty Towers, Алматы<br /><br />
+                                    <strong>Телефон:</strong> +77014217842<br />
+                                    <strong>Email:</strong>
+                                    elite_home@gmail.com<br />
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Footer bilgi sütunu sonu-->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- End Footer -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Использование cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookies для предоставления вам лучшего
+                    и более удобного опыта просмотра.
+                    <a href="terms-of-use.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <a
+            href="#"
+            class="scroll-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <div id="preloader"></div>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/cookiebanner.js"></script>
+        <script src="assets/js/contact-form.js"></script>
+    </body>
+</html>
